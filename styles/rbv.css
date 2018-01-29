@@ -1,0 +1,45 @@
+.responsive-background-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+  /* 左右中央寄せ */
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+  /* 上下中央寄せ */
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  padding: 32px;
+  box-sizing: border-box;
+
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+
+  background-size: cover;
+  background-position: center;
+}
+
+.responsive-background-video p {
+  font-size: 40px;
+  color: white;
+  line-height: 150%;
+  font-weight: bold;
+}
+
+.responsive-background-video .small {
+  font-size: 26px;
+  color: white;
+  line-height: 150%;
+}
+
+.responsive-background-video a {
+  border: 2px solid white;
+  color: white;
+  position: relative;
+  top: 16px;
+}
