@@ -4,7 +4,7 @@
   <?php $video_url = plugins_url('/responsive-background-video/videos/video_lg.gif', '') ?>
 <?php endif; ?>
 
-<div id="responsive-background-video" class="responsive-background-video" style="background-image: url('<?php echo $video_url; ?>">
+<div id="responsive-background-video" class="responsive-background-video" style="display:none;background-image: url('<?php echo $video_url; ?>">
   <p>
     <?php if(!empty(get_option('rbv_title'))): ?>
       <?php echo get_option('rbv_title'); ?>
