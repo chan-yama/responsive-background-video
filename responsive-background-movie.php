@@ -7,6 +7,6 @@ Version: 1.0
 Author: chanyama
  */
 
-include 'assets/set-styles.php';
-include 'assets/set-custompost.php';
-include 'assets/set-views.php';
+include_once 'assets/set-styles.php';
+include_once 'assets/set-config.php';
+include_once 'assets/set-views.php';
